@@ -8,7 +8,7 @@ kernel extraction、substitution等四個代數操作來最小化布林代數的
 main.cpp:　輸入與輸出的主檔案  
 Utils.hpp:　定義邏輯間的表示方式與代數化簡方法  
 Utils.cpp:　實現邏輯資料的操作與代數化簡的演算法  
-sample.blif: 測試用的.blif檔
+sample.blif: 測試用的.blif檔  
 out.blif: sample.blif化簡後的輸出
 ## 使用方法(要安裝Boost Libraries才可以正常使用)
     1. 進入此專案
