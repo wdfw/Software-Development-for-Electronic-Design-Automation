@@ -18,8 +18,6 @@ out.blif: sample.blif化簡後的輸出
     4. 輸入 ./main [sample.blif]
         sample.blif: 要簡化的.blif檔
     5. 產生out.blif檔，並顯示化簡後的邏輯數量
-
-
 ## 測試結果
 以下為執行./main sample.blif後的結果，簡化後的邏輯會透過Ex(x為任意數字)變數進行擴充，以組成等效的布林代數  
 ### sample.blif
