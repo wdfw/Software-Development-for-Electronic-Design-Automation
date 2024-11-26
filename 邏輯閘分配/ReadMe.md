@@ -1,7 +1,7 @@
-使用g++版本 : g++ 11.4
-B10902227.cpp包含全部的程式碼
-testcase.blif是我產生用於測試的BLIF檔
-* 要使用 Gurobi中的guroi_cl 指令可以正常使用
+使用g++版本: g++ 11.4  
+B10902227.cpp包含全部的程式碼  
+testcase.blif是我產生用於測試的BLIF檔  
+* 要使用 Gurobi中的guroi_cl 指令可以正常使用  
  
 使用方法 :
     1. 進入此專案
