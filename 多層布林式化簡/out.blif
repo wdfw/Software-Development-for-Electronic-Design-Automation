@@ -1,0 +1,22 @@
+.model sample
+.inputs a b c d e f g h i j k l m n 
+.outputs o p 
+.names E1 b d e o
+1111 1
+.names E2 c d e f m n p
+1-0-1-0 1
+-11111- 1
+.names E3 a c i k E0
+1-01- 1
+-01-- 1
+-11-1 1
+.names E0 a c g j E1
+1---1 1
+-0010 1
+.names c e g h l E2
+-0--0 1
+1111- 1
+.names a h E3
+0- 1
+11 1
+.end
