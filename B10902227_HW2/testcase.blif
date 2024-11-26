@@ -1,0 +1,191 @@
+.model TestCase
+.inputs  a b c
+.outputs e f g h
+
+.names a b a0
+11 1
+
+.names a0 b b0
+11 1
+.names a0 c c0
+1- 1
+-1 1
+
+.names b0 b d0
+1- 1
+-1 1
+.names c0 c e0
+11 1
+.names b0 c0 f0
+1- 1
+-1 1
+
+.names d0 a0 g0
+1- 1
+-1 1
+.names e0 d0 h0
+11 1
+.names f0 b0 i0
+1- 1
+-1 1
+.names d0 e0 j0
+11 1
+
+.names f0 j0 k0
+1- 1
+-1 1
+.names i0 d0 l0
+11 1
+.names f0 h0 m0
+1- 1
+-1 1
+.names a0 g0 n0
+11 1
+.names j0 g0 o0
+1- 1
+-1 1
+
+
+.names m0 n0 p0
+11 1
+.names o0 h0 q0
+1- 1
+-1 1
+.names e0 l0 r0
+11 1
+.names m0 n0 s0
+1- 1
+-1 1
+.names o0 n0 t0
+11 1
+.names k0 l0 u0
+1- 1
+-1 1
+.names m0 n0 v0
+11 1
+.names k0 o0 w0
+1- 1
+-1 1
+.names l0 n0 x0
+11 1
+.names m0 o0 y0
+1- 1
+-1 1
+.names m0 l0 z0
+11 1
+.names m0 l0 za0
+11 1
+.names m0 l0 zb0
+11 1
+.names m0 l0 zc0
+11 1
+.names m0 l0 zd0
+11 1
+.names m0 l0 ze0
+11 1
+.names m0 l0 zf0
+11 1
+.names m0 l0 zg0
+11 1
+.names m0 l0 zh0
+11 1
+.names m0 l0 zi0
+11 1
+.names m0 l0 zj0
+11 1
+.names m0 l0 zk0
+11 1
+.names m0 l0 zl0
+11 1
+.names m0 l0 zm0
+11 1
+.names m0 l0 zn0
+11 1
+.names m0 l0 zo0
+11 1
+.names m0 l0 zp0
+11 1
+.names za0 zb0 zc0 zd0 ze0 zf0 zg0 zh0 zi0 zj0 zk0 zl0 zm0 zn0 zo0 zp0 h
+1111111111111111 1 
+
+.names u0 v0 w0 x0 y0 z0 e
+1----- 1
+-1---- 1
+--1--- 1
+---1-- 1
+----1- 1
+-----1 1
+.names p0 q0  r0 s0 t0 f
+11111 1
+
+.names a b a2
+1- 1
+-1 1
+.names a c a1
+11 1
+.names a1 a2 b2
+1- 1
+-1 1
+.names b a1 b1
+11 1
+.names b2 b1 c2
+1- 1
+-1 1
+.names a1 b1 c1
+11 1
+.names c2 c1 d2
+1- 1
+-1 1
+.names b1 c1 d1
+11 1
+.names d2 d1 e2
+1- 1
+-1 1
+.names c1 d1 e1
+11 1
+.names e2 e1 f2
+1- 1
+-1 1
+.names d1 e1 f1
+11 1
+.names e1 f1 g1
+11 1
+.names f2 f1 g2
+1- 1
+-1 1
+.names g2 g1 h2
+1- 1
+-1 1
+.names f1 g1 h1
+11 1
+.names g1 h1 i1
+11 1
+.names h2 h1 i2
+1- 1
+-1 1
+
+
+
+.names a b a3
+1- 1
+-1 1
+.names a3 i1 b3
+1- 1
+-1 1
+.names i1 b3 c3
+1- 1
+-1 1
+.names b3 c3 d3
+1- 1
+-1 1
+.names c3 d3 e3
+1- 1
+-1 1
+.names d3 e3 f3
+1- 1
+-1 1
+
+.names i1 i2 f3 g
+111 1
+
+.end
