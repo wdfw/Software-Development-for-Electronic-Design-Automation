@@ -6,8 +6,10 @@ kernel extraction、substitution等四個代數操作來最小化布林代數的
 3. 輸出簡化後的.blif檔
 ## 檔案說明  
 main.cpp:　輸入與輸出的主檔案  
-Utils.cpp:　包含表示邏輯的資料結構與代數化簡的演算法  
+Utils.hpp:　定義邏輯間的表示方式與代數化簡方法  
+Utils.cpp:　實現邏輯資料的操作與代數化簡的演算法  
 sample.blif: 測試用的.blif檔
+out.blif: sample.blif化簡後的輸出
 ## 使用方法(要安裝Boost Libraries才可以正常使用)
     1. 進入此專案
     2. 輸入 cmake .
@@ -20,5 +22,14 @@ sample.blif: 測試用的.blif檔
 
 ## 測試結果
 以下為執行./main sample.blif後的結果，簡化後的邏輯會透過Ex(x為任意數字)變數進行擴充，以組成等效的布林代數
-![image](https://github.com/user-attachments/assets/a52d495d-79bb-4be0-b2ba-f33dcd8efcc3)
+###sample.blif
+![image](https://github.com/user-attachments/assets/e832aaf8-96a2-4597-be8c-5776352e38ae)
+###out.blif
+![image](https://github.com/user-attachments/assets/0811ba5e-6905-4062-95a7-a3a42c8ffa61)
+###執行狀況
+將原本52個布林代數減少至36個
+![Uploading image.png…]()
+
+
+
 
