@@ -19,6 +19,6 @@ sample.blif: 測試用的.blif檔
 
 
 ## 測試結果
-以下為執行./main sample.blif後的結果，簡化後的邏輯會透過Ex(x為任意數字)變數進行擴充，以組成Multi-level Logic
+以下為執行./main sample.blif後的結果，簡化後的邏輯會透過Ex(x為任意數字)變數進行擴充，以組成等效的布林代數
 ![image](https://github.com/user-attachments/assets/a52d495d-79bb-4be0-b2ba-f33dcd8efcc3)
 
