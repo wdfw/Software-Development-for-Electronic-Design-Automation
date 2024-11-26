@@ -1,5 +1,5 @@
-使用g++版本: g++ 11.4  
-B10902227.cpp包含全部的程式碼  
+##檔案說明
+main.cpp包含讀檔，演算法與輸出的程式
 testcase.blif是我產生用於測試的BLIF檔  
 * 要使用 Gurobi中的guroi_cl 指令可以正常使用  
  
