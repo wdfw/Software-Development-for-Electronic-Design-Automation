@@ -1,7 +1,17 @@
+## 專案說明
+在本次專案中，我們要以啟發式與線性規劃的方式實現邏輯閘資源的分配演算法，  
+分配演算法的目標是在限定資源並給定邏輯閘關係的情況下，最小化電路的最大延遲。  
+在本專案中需要滿足下列的要求:  
+1. 為了簡化，我們的可用資源只有AND、OR、NOT三種邏輯閘
+2. 每個邏輯運算的時間都為1單位週期
+3. 讀取.blif檔來設定電路的邏輯關係
+5. -h表示採用啟發式方法實現的演算法
+6. -e表示採用線性規劃實現的演算法
+7. 在執行完後輸出每個階段的執行結果與電路的延遲
 ## 檔案說明  
 main.cpp: 讀檔，演算法與輸出的程式  
 testcase.blif: 用於測試的BLIF檔  
-## 使用方法(要使用 Gurobi中的guroi_cl 指令可以正常使用)
+## 使用方法(要安裝 Gurobi才可以正常使用)
     1. 進入此專案
     2. 輸入 cmake .
     3. 輸入 make 
@@ -10,15 +20,15 @@ testcase.blif: 用於測試的BLIF檔
         -e: 使用 ILP-based Scheduling演算法
         -h: 使用Heuristic Scheduling演算法
         test_case.blif: 為要處理的.blif檔案
-        AND_Constrain: 代表AND閘的限制
-        OR_Constrain: 代表OR閘的限制
-        NOT_Constrain: 代表NOT閘的限制
+        AND_Constrain: 代表AND閘的限制數量
+        OR_Constrain: 代表OR閘的限制數量
+        NOT_Constrain: 代表NOT閘的限制數量
     5. 在符合邏輯閘資源限制的條件下，顯示每個時段的Boolen Opeartion
 
-以下分別為Heuristic Scheduling與ILP-based Scheduling對test_case.blif的執行結果
-分別輸入(./main -h testcase.blif 2 1 0)與(./main -e testcase.blif 2 1 0)
+
 ## 測試結果
-以下是對testcase.blif資源分配後的排程結果  
+以下分別為Heuristic Scheduling與ILP-based Scheduling對test_case.blif的執行結果  
+分別輸入(./main -h testcase.blif 2 1 0)與(./main -e testcase.blif 2 1 0)  
 Heuristic Scheduling Result  
    1 : {a0 a1}{a2}{}  
    2 : {b1 b0}{c0}{}  
