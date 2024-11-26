@@ -1,9 +1,7 @@
 ## 檔案說明  
-main.cpp包含讀檔，演算法與輸出的程式
+main.cpp包含讀檔，演算法與輸出的程式  
 testcase.blif是我產生用於測試的BLIF檔  
-* 要使用 Gurobi中的guroi_cl 指令可以正常使用  
- 
-使用方法 :
+## 使用方法(要使用 Gurobi中的guroi_cl 指令可以正常使用)
     1. 進入此專案
     2. 輸入 cmake .
     3. 輸入 make 
